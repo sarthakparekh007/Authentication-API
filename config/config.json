@@ -1,0 +1,14 @@
+{
+    "authTokenKey": "Th1sA0thT8ken@hOm3",
+    "cookie": {
+      "secret": "session",
+      "key": "abhH4re5Uf4Rd0KnddS05f3V"
+    },
+    "session": {
+      "secret": "abhH4re5Uf4Rd0KnddS05f3V",
+      "resave": true,
+      "saveUninitialized": true,
+      "maxAge": 2592000000
+    }
+  }
+  
