@@ -20,7 +20,7 @@ module.exports = {
 					if (err == null && decoded != undefined) {
 						const users = require('../model/users.js');
 						const userDetail = await users.findOne({_id:data._id,token:token},{email:1,role:1});
-						console.log(userDetail,"userDetail")
+						
 						if(!userDetail){
 							return res.sendLogin("Your session is expired, Please login");
 						}

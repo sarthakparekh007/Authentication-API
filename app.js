@@ -150,7 +150,7 @@ if(!user){
     app.use(verifyAuthToken);
     // Router initialize with auth token
     app.use(checkAuth);
-    app.use('/index', require('./routes/index'));
+    app.use('/logout', require('./routes/logout'));
     app.use('/users', require('./routes/users') );
     app.use('/profile',require('./routes/profile'));
     
