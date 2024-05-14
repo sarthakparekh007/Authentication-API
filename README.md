@@ -28,4 +28,4 @@ For profile edit
 - isPrivate
 
 
-For Google Auth You need to add your client id and client secret id 
+For Google Auth You need to add your client id and client secret id in login route file
